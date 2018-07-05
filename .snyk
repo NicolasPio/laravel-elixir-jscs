@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.1
+version: v1.12.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:shell-quote:20160621':
@@ -56,3 +56,18 @@ patch:
         patched: '2017-05-25T03:56:22.137Z'
     - laravel-elixir > browser-sync > serve-static > send > debug > ms:
         patched: '2017-05-25T03:56:22.137Z'
+  'npm:lodash:20180130':
+    - gulp-jscs > jscs > lodash:
+        patched: '2018-07-05T05:11:19.567Z'
+    - gulp-jscs > jscs > jscs-jsdoc > jsdoctypeparser > lodash:
+        patched: '2018-07-05T05:11:19.567Z'
+    - gulp-jscs > jscs > xmlbuilder > lodash:
+        patched: '2018-07-05T05:11:19.567Z'
+    - gulp-jscs > jscs > babel-jscs > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2018-07-05T05:11:19.567Z'
+    - gulp-jscs > jscs > babel-jscs > babel-core > lodash:
+        patched: '2018-07-05T05:11:19.567Z'
+    - laravel-elixir > browser-sync > easy-extender > lodash:
+        patched: '2018-07-05T05:11:19.567Z'
+    - laravel-elixir > gulp-phpspec > lodash:
+        patched: '2018-07-05T05:11:19.567Z'
